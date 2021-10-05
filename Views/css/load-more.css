@@ -1,0 +1,31 @@
+.wrap{
+    overflow : hidden;
+}
+
+    .wrap .box-hidden{
+        display: none;
+    }
+
+.wrap-button{
+    width: 120px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+    .wrap-button .btn-load{
+        font-family :Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(34, 159, 231);
+        border: none;
+        border-radius: 0;
+        transition: 500ms;
+    }
+
+    .wrap-button .btn-load:hover{
+        font-family :Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgba(34, 159, 231, 0.76);
+        border: none;
+        border-radius: 0;
+        transition: 500ms;
+    }
